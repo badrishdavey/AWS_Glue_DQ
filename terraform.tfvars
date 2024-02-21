@@ -1,0 +1,5 @@
+region          = "us-east-1"
+tf_state_bucket = "<my-bucket-for-tfstate>"
+glue_asset_bucket = "aws-glue-assets-<accountNumber>-us-east-1"
+data_bucket   = "<my-bucket-for-taxi-data>"
+glue_role_arn = "arn:aws:iam::<accountNumber>:role/GlueRole"
