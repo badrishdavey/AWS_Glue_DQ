@@ -9,7 +9,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "badrishdavey"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "glue-dq"
+  TF_WORKSPACE: "dq_test"
   CONFIG_DIRECTORY: "."
 ## ...
 ## ...
