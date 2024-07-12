@@ -7,7 +7,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "davayb"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "glue-dq"
+  TF_WORKSPACE: "dq_test"
   CONFIG_DIRECTORY: "."
 ## ...
 ## ...
@@ -56,7 +56,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
-          // 1. Retrieve existing bot comments for the PR
+          // 1. Retrieve existing bot comments for the PR 
           const { data: comments } = await github.rest.issues.listComments({
             owner: context.repo.owner,
             repo: context.repo.repo,
