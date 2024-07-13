@@ -17,5 +17,5 @@ Ex. jaredfiacco2 if your username is jaredfiacco2
 ### 5. Run Glue Job
 <img src="images\run_glue_crawler.jpg"/>
 
-### 6. Check Data Quality
+### 6. Check Data Quality1
 <img src="images\review_dq_results.jpg"/>
